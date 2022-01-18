@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Questrial&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Oxygen:wght@300&family=Questrial&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Evolución de dispositivos movilest</title>
+</head>
+
+<body>
+    <section id="homer1" class="text-center center">
+        <video autoplay muted>
+            <source src="/assets/video/homer1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="content">
+        <div class="cotainer background1 title1">
+            <h1 class="text-center">Huawei Mate 20 Pro</h1>
+            <h2 class="text-center">2018</h2>
+        </div>
+        <div class="container text-center">
+            <img src="https://i2.wp.com/socialgeek.co/wp-content/uploads/2013/07/huawei-mate-20pro-e1559620208954.jpg?w=446&ssl=1"
+                class="img-fluid img-single" alt="...">
+            <div class="container">
+                <p>
+                    Tras un rápido ascenso en los últimos años, en 2018 Huawei sorprendió a todos sus competidores al
+                    anunciar un smartphone con características únicas. El Huawei Mate 20 Pro llegó con una cámara súper
+                    versátil compuesta por un sistema de tres lentes Leica en su parte trasera, de 40, 20 y 8
+                    megapíxeles, estos dos últimos con funciones de ultra gran angular y teleobjetivo respectivamente,
+                    junto a una cámara frontal de gran angular de 24 megapíxeles.
+
+                    El Mate 20 Pro además se destacó por ser el primer smartphone del mundo en ofrecer carga inalámbrica
+                    reversible, una función que permite utilizar la batería del teléfono para cargar cualquier
+                    smartphone compatible con carga inalámbrica.
+
+                    La enorme batería de 4,200 mAh de este equipo y su sistema de carga súper rápida proporciona largas
+                    horas de uso, y en caso de agotarse, reponer una gran cantidad de horas de uso en solo 30 minutos de
+                    carga.
+                </p>
+            </div>
+            <a href="/templates/index2.html" class="btn btn-outline-success">Volver al presente</a>
+        </div>
+
+    </section>
+
+    <!--Temporizar imagen - homero viaja al pasado-->
+    <script>
+        const homer = document.getElementById("homer1");
+        const content = document.getElementById("content");
+        function noVideo() {
+            homer.style.display = 'none';
+
+        }
+        function noContent() {
+            content.style.display = 'none';
+        }
+        function showContent() {
+            content.style.display = 'block';
+        }
+        setTimeout(noContent, 0);
+        setTimeout(noVideo, 14200);
+        setTimeout(showContent, 14300);
+    </script>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body{
+    background-color: #DADDFC;
+}
+
+.gif-width{
+    max-width: 50%;
+}
+
+.background1{
+ background-color:#2E4C6D;
+}
+
+.background2{
+    background-color: #396EB0;
+}
+
+.background3{
+    background-color: #DADDFC;
+}
+
+.background4{
+    background-color: #FC997C;
+}
+
+.img-container{
+padding: 1.5em;
+}
+
+.title1{
+ font-family: 'Anton';
+ font-size: 2.5em;
+ color:#DADDFC;
+ padding: 1em 2em;
+}
+
+.text-intro{
+    font-family: "Oxygen";
+    padding: 1em 1.5em;
+}
+
+.era-title{
+    font-family: "Secular One";
+    padding: 1em 0.5em;
+}
+
+/*Individual pages*/
+.center {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .date{
+      color:#DADDFC;
+      font-family: "Secular One"; ;
+  }
+
+  .img-single{
+      max-width: 35%;
+      padding: 2em 2em;
+  }
+
+  .description{
+      font-family: "Oxygen";
+  }
+
